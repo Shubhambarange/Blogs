@@ -1,0 +1,44 @@
+/* Block.css */
+
+.block {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .text-block,
+  .picture-block {
+    width: 300px; /* Set the fixed width for the blocks */
+  }
+  
+  .text-block textarea,
+  .picture-block input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .delete-block-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .delete-block-btn:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .block-container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .block-container {
+      width: 30%;
+    }
+  }
